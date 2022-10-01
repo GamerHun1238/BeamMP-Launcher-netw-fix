@@ -247,7 +247,7 @@ void PreGame(const std::string& GamePath){
     std::string GameVer = CheckVer(GamePath);
     info("Game Version : " + GameVer);
     if(GameVer < CurrVer){
-        fatal("Game version is old! Please update.");
+        
     }else if(GameVer > CurrVer){
         warn("Game is newer than recommended, multiplayer may not work as intended!");
     }
